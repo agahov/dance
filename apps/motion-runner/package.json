@@ -1,0 +1,22 @@
+{
+  "name": "@dance/motion-runner",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@dance/common": "workspace:*",
+    "matter-js": "^0.19.0",
+    "miniplex": "^2.0.0",
+    "pixi.js": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/matter-js": "^0.19.6",
+    "vite": "^5.2.0"
+  }
+}
